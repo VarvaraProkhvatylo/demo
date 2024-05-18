@@ -37,19 +37,20 @@ body {
 }
 .menus {
     width: 244px;
-    height: 100%;
+    height: 14px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-right: 17px;
 }
 .menus ul {
     width: 100%;
+    padding: 0;
     list-style: none;
-    display: flex;
-    justify-content: space-between;
-    
+    display: inline-flex;
+    justify-content: space-between;    
 }
-.menus img {
+.header-divider img {
     height: 20px;
 }
 
@@ -57,5 +58,16 @@ body {
     width: 172px;
     height: 20px;
     display: inline-flex;
+    justify-content: space-between;
+    margin: 0 17px;
+}
+.social img:hover {
+    cursor: pointer;
 }
 
+.search {
+    margin-left: 17px;
+}
+.search img:hover {
+    cursor: pointer;
+}
