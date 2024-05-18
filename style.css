@@ -78,3 +78,34 @@ body {
 .search img:hover {
     cursor: pointer;
 }
+
+.hero-text {
+    width: 530px;
+    margin-top: 198px;
+    margin-left: 70px;
+    color: white;
+}
+
+.hero-text .category {
+    width: 77px;
+    height: 22px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.15);
+    font: Roboto;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12px;
+    text-transform: uppercase;
+    align-items: center;
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 15px;
+}
+.hero-text .main {
+    width: 530px;
+    height: 88px;
+    font-family: Lora;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+    margin-bottom: 19px;
+}
