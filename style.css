@@ -38,7 +38,7 @@ body {
 .menus {
     width: 244px;
     height: 14px;
-    display: flex;
+    display: inline-flex;
     justify-content: space-between;
     align-items: center;
     margin-right: 17px;
@@ -49,6 +49,10 @@ body {
     list-style: none;
     display: inline-flex;
     justify-content: space-between;    
+}
+.menus ul li:hover {
+    text-decoration: underline;
+    
 }
 .header-divider img {
     height: 20px;
