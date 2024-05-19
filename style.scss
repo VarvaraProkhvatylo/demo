@@ -27,6 +27,7 @@ body {
     position: sticky;
     top: 1px;
 }
+
 .header h1 {
     text-transform: uppercase;
     height: 22px;
@@ -38,6 +39,7 @@ body {
     display: flex;
     align-items: center;
 }
+
 .menus {
     width: 244px;
     height: 14px;
@@ -46,6 +48,7 @@ body {
     align-items: center;
     margin-right: 17px;
 }
+
 .menus ul {
     width: 100%;
     padding: 0;
@@ -53,10 +56,11 @@ body {
     display: inline-flex;
     justify-content: space-between;    
 }
+
 .menus ul li:hover {
-    text-decoration: underline;
-    
+    text-decoration: underline;  
 }
+
 .header-divider img {
     height: 20px;
 }
