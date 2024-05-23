@@ -128,6 +128,7 @@ main {
             color: rgb(73, 80, 87);
             display: flex;
             justify-content: space-between;
+            margin-bottom: 30px;
 
             a:link {
                 text-decoration: none;
@@ -146,6 +147,87 @@ main {
         .blog-columns {
             width: 100%;
             height: 950px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .blog-row {
+                width: 100%;
+                height: 450px;
+                display: flex;
+                justify-content: space-between;
+                
+                
+                .blog-item {
+                width: 310px;
+                height: 450px;
+                position: relative;
+
+                .BI-category {
+                    padding: 6px 10px;
+                    height: 22px;
+                    border-radius: 8px;
+                    background: rgba(255, 255, 255, 0.2);
+                    color: rgb(255, 255, 255);
+                    font-family: Roboto;
+                    font-size: 10px;
+                    font-weight: 700;
+                    line-height: 12px;
+                    text-transform: uppercase;
+                    display: flex;
+                    align-items:center;
+                    justify-content: center;
+                    position: absolute;
+                    top: 20px;
+                    right: 20px;
+                }
+                
+                img {
+                    margin-bottom: 15px;
+                }
+
+                .date {
+                    width: 59px;
+                    height: 15px;
+                    margin-bottom: 15px;
+
+                    h1 {
+                        font-family: Lora;
+                        font-size: 12px;
+                        font-weight: 400;
+                        line-height: 15px;
+                        color: rgb(108, 117, 125);
+                    }
+                }
+
+                .blog-header {
+                    width: 100%;
+                    height: 50px;
+                    margin-bottom: 15px;
+                    
+                    h2 {
+                        font-family: Lora;
+                        font-size: 18px;
+                        font-weight: 700;
+                        line-height: 25px;
+                        color: rgb(73, 80, 87);
+                    }
+                }
+
+                .blog-text {
+                    width: 100%;
+                    height: 60px;
+
+                    h3 {
+                        font-family: Lora;
+                        font-size: 12px;
+                        font-weight: 400;
+                        line-height: 20px;
+                        color: rgb(108, 117, 125);
+                    }
+                }
+            }
+            }
         }
     }
 }
