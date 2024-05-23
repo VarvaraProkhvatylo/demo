@@ -132,4 +132,8 @@ main .popular-topics .topics-nav a:link {
 }
 main .popular-topics .topics-nav a:hover, main .popular-topics .topics-nav a:visited {
   color: rgb(212, 163, 115);
+}
+main .popular-topics .blog-columns {
+  width: 100%;
+  height: 950px;
 }/*# sourceMappingURL=style.css.map */
