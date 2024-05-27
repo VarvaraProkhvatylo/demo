@@ -10,7 +10,7 @@ body {
     background-image: url(images/slider.png);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
+    max-width: 100%;
     height: 600px;
     // position: absolute;
 }
@@ -114,12 +114,38 @@ body {
         line-height: 46px;
         margin-bottom: 19px;
     }
+    .date-and-tesa {
+        display: inline-flex;
+    .date {
+        margin: 2px;
+        width: 59px;
+        color: rgb(229, 229, 229);
+        font-family: Lora;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 15px;
+    }
+    img {
+        margin: 8px 11px;
+        height: 1px;
+        justify-content: center;
+    }
+    .tesa {
+        margin: 0;
+        width: 420px;
+        color: rgb(229, 229, 229);
+        font-family: Lora;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: left;
+    }
+}
 }
 
 main {
     .popular-topics {
-        height: 1081px;
-        width: 1300px;
+        max-width: 1300px;
         margin: 150px auto;
 
         .topics-nav {
