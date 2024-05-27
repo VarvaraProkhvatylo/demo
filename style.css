@@ -289,4 +289,90 @@ main .break-block .content .break-text h2 {
   font-size: 12px;
   font-weight: 400;
   line-height: 20px;
+}
+main .editors-pick {
+  max-width: 1300px;
+  margin: 150px auto;
+}
+main .editors-pick h3 {
+  color: rgb(73, 80, 87);
+  font-family: Lora;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 46px;
+  text-align: left;
+}
+main .editors-pick .blogs {
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+}
+main .editors-pick .blogs .blog-1 {
+  background-image: url(images/EP1.png);
+  width: 420px;
+  height: 350px;
+  position: relative;
+}
+main .editors-pick .blogs .editors-category {
+  height: 22px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.15);
+  font-family: Roboto;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 12px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+main .editors-pick .blogs .info {
+  position: absolute;
+  width: 340px;
+  height: 155px;
+  top: 153px;
+  left: 40px;
+}
+main .editors-pick .blogs h1 {
+  color: rgb(229, 229, 229);
+  font-family: Lora;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: left;
+}
+main .editors-pick .blogs h2 {
+  width: 270px;
+  color: rgb(255, 255, 255);
+  font-family: Lora;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: left;
+  margin: 15px 0;
+}
+main .editors-pick .blogs h3 {
+  width: 340px;
+  color: rgb(229, 229, 229);
+  font-family: Lora;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+}
+main .editors-pick .blog-2 {
+  background-image: url(images/EP2.png);
+  width: 420px;
+  height: 350px;
+  position: relative;
+}
+main .editors-pick .blog-3 {
+  background-image: url(images/EP3.png);
+  width: 420px;
+  height: 350px;
+  position: relative;
 }/*# sourceMappingURL=style.css.map */

@@ -319,4 +319,97 @@ main {
             }
         }
     }
-}
+    .editors-pick 
+        {
+        max-width: 1300px;
+        margin: 150px auto;
+        h3 {
+            color: rgb(73, 80, 87);
+            font-family: Lora;
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 46px;
+            text-align: left;  
+        }
+        .blogs {
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: space-between;
+            
+            .blog-1 {
+                background-image: url(images/EP1.png);
+                width: 420px;
+                height: 350px;
+                position: relative;
+            }
+
+            .editors-category {
+                height: 22px;
+                padding: 5px 10px;
+                border-radius: 8px;
+                background: rgba(255, 255, 255, 0.15);
+                font-family: Roboto;
+                text-transform: uppercase;
+                font-size: 10px;
+                font-weight: 700;
+                line-height: 12px;
+                color: rgb(255, 255, 255);
+                display: flex;
+                align-items: center;
+                position: absolute;
+                top: 20px;
+                right: 20px;
+            }
+
+            .info {
+                position: absolute;
+                width: 340px;
+                height: 155px;
+                top: 153px;
+                left: 40px;
+            }
+
+            h1 {
+            color: rgb(229, 229, 229);
+            font-family: Lora;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 15px;
+            text-align: left;
+            }
+            h2 {
+             width: 270px;
+             color: rgb(255, 255, 255);
+             font-family: Lora;
+             font-size: 18px;
+             font-weight: 700;
+             line-height: 25px;
+             text-align: left;
+             margin: 15px 0;
+            }
+            h3 {
+            width: 340px;
+            color: rgb(229, 229, 229);
+            font-family: Lora;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 20px;
+            text-align: left;
+            }
+            }
+
+            .blog-2 {
+            background-image: url(images/EP2.png);
+            width: 420px;
+            height: 350px;
+            position: relative;
+            }
+
+            .blog-3 {
+            background-image: url(images/EP3.png);
+            width: 420px;
+            height: 350px;
+            position: relative;
+            }
+        }
+    }
