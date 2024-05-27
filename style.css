@@ -90,7 +90,7 @@ body {
   height: 22px;
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.15);
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 10px;
   font-weight: 700;
   line-height: 12px;
@@ -103,7 +103,7 @@ body {
 .hero-text .main {
   width: 530px;
   height: 88px;
-  font-family: Lora;
+  font-family: "Lora";
   font-size: 36px;
   font-weight: 700;
   line-height: 46px;
@@ -116,7 +116,7 @@ body {
   margin: 2px;
   width: 59px;
   color: rgb(229, 229, 229);
-  font-family: Lora;
+  font-family: "Lora";
   font-size: 12px;
   font-weight: 400;
   line-height: 15px;
@@ -130,7 +130,7 @@ body {
   margin: 0;
   width: 420px;
   color: rgb(229, 229, 229);
-  font-family: Lora;
+  font-family: "Lora";
   font-size: 12px;
   font-weight: 400;
   line-height: 20px;
@@ -140,6 +140,13 @@ body {
 main .popular-topics {
   max-width: 1300px;
   margin: 150px auto;
+}
+main .popular-topics h1 {
+  color: rgb(73, 80, 87);
+  font-family: "Roboto";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 46px;
 }
 main .popular-topics .topics-nav {
   width: 377px;
@@ -152,7 +159,7 @@ main .popular-topics .topics-nav {
 main .popular-topics .topics-nav a:link {
   text-decoration: none;
   color: rgb(73, 80, 87);
-  font-family: Lora;
+  font-family: "Roboto";
   font-size: 12px;
   font-weight: 700;
   line-height: 25px;
@@ -184,7 +191,7 @@ main .popular-topics .blog-columns .blog-row .blog-item .BI-category {
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.2);
   color: rgb(255, 255, 255);
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 10px;
   font-weight: 700;
   line-height: 12px;
@@ -205,7 +212,7 @@ main .popular-topics .blog-columns .blog-row .blog-item .date {
   margin-bottom: 15px;
 }
 main .popular-topics .blog-columns .blog-row .blog-item .date h1 {
-  font-family: Lora;
+  font-family: "Lora";
   font-size: 12px;
   font-weight: 400;
   line-height: 15px;
@@ -217,7 +224,7 @@ main .popular-topics .blog-columns .blog-row .blog-item .blog-header {
   margin-bottom: 15px;
 }
 main .popular-topics .blog-columns .blog-row .blog-item .blog-header h2 {
-  font-family: Lora;
+  font-family: "Roboto";
   font-size: 18px;
   font-weight: 700;
   line-height: 25px;
@@ -228,7 +235,7 @@ main .popular-topics .blog-columns .blog-row .blog-item .blog-text {
   height: 60px;
 }
 main .popular-topics .blog-columns .blog-row .blog-item .blog-text h3 {
-  font-family: Lora;
+  font-family: "Lora";
   font-size: 12px;
   font-weight: 400;
   line-height: 20px;
@@ -260,7 +267,7 @@ main .break-block .content .category {
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.2);
   color: rgb(255, 255, 255);
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 10px;
   font-weight: 700;
   line-height: 12px;
@@ -273,7 +280,7 @@ main .break-block .content .break-header {
 }
 main .break-block .content .break-header h1 {
   color: rgb(255, 255, 255);
-  font-family: Lora;
+  font-family: "Roboto";
   font-size: 36px;
   font-weight: 700;
   line-height: 46px;
@@ -285,7 +292,7 @@ main .break-block .content .break-text {
 }
 main .break-block .content .break-text h2 {
   color: rgb(229, 229, 229);
-  font-family: Lora;
+  font-family: "Lora";
   font-size: 12px;
   font-weight: 400;
   line-height: 20px;
@@ -296,7 +303,7 @@ main .editors-pick {
 }
 main .editors-pick h3 {
   color: rgb(73, 80, 87);
-  font-family: Lora;
+  font-family: "Roboto";
   font-size: 36px;
   font-weight: 700;
   line-height: 46px;
@@ -318,7 +325,7 @@ main .editors-pick .blogs .editors-category {
   padding: 5px 10px;
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.15);
-  font-family: Roboto;
+  font-family: "Roboto";
   text-transform: uppercase;
   font-size: 10px;
   font-weight: 700;
@@ -339,7 +346,7 @@ main .editors-pick .blogs .info {
 }
 main .editors-pick .blogs h1 {
   color: rgb(229, 229, 229);
-  font-family: Lora;
+  font-family: "Lora";
   font-size: 12px;
   font-weight: 400;
   line-height: 15px;
@@ -348,7 +355,7 @@ main .editors-pick .blogs h1 {
 main .editors-pick .blogs h2 {
   width: 270px;
   color: rgb(255, 255, 255);
-  font-family: Lora;
+  font-family: "Roboto";
   font-size: 18px;
   font-weight: 700;
   line-height: 25px;
@@ -357,8 +364,9 @@ main .editors-pick .blogs h2 {
 }
 main .editors-pick .blogs h3 {
   width: 340px;
+  height: 60px;
   color: rgb(229, 229, 229);
-  font-family: Lora;
+  font-family: "Lora";
   font-size: 12px;
   font-weight: 400;
   line-height: 20px;

@@ -95,7 +95,7 @@ body {
         height: 22px;
         border-radius: 8px;
         background: rgba(255, 255, 255, 0.15);
-        font-family: Roboto;
+        font-family: "Roboto";
         font-size: 10px;
         font-weight: 700;
         line-height: 12px;
@@ -108,7 +108,7 @@ body {
     .main {
         width: 530px;
         height: 88px;
-        font-family: Lora;
+        font-family: "Lora";
         font-size: 36px;
         font-weight: 700;
         line-height: 46px;
@@ -120,7 +120,7 @@ body {
         margin: 2px;
         width: 59px;
         color: rgb(229, 229, 229);
-        font-family: Lora;
+        font-family: "Lora";
         font-size: 12px;
         font-weight: 400;
         line-height: 15px;
@@ -134,7 +134,7 @@ body {
         margin: 0;
         width: 420px;
         color: rgb(229, 229, 229);
-        font-family: Lora;
+        font-family: "Lora";
         font-size: 12px;
         font-weight: 400;
         line-height: 20px;
@@ -148,6 +148,14 @@ main {
         max-width: 1300px;
         margin: 150px auto;
 
+        h1 {
+            color: rgb(73, 80, 87);
+            font-family: "Roboto";
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 46px;
+        }
+        
         .topics-nav {
             width: 377px;
             height: 25px;
@@ -159,7 +167,7 @@ main {
             a:link {
                 text-decoration: none;
                 color: rgb(73, 80, 87);
-                font-family: Lora;
+                font-family: "Roboto";
                 font-size: 12px;
                 font-weight: 700;
                 line-height: 25px;
@@ -195,7 +203,7 @@ main {
                     border-radius: 8px;
                     background: rgba(255, 255, 255, 0.2);
                     color: rgb(255, 255, 255);
-                    font-family: Roboto;
+                    font-family: "Roboto";
                     font-size: 10px;
                     font-weight: 700;
                     line-height: 12px;
@@ -218,7 +226,7 @@ main {
                     margin-bottom: 15px;
 
                     h1 {
-                        font-family: Lora;
+                        font-family: "Lora";
                         font-size: 12px;
                         font-weight: 400;
                         line-height: 15px;
@@ -232,7 +240,7 @@ main {
                     margin-bottom: 15px;
                     
                     h2 {
-                        font-family: Lora;
+                        font-family: "Roboto";
                         font-size: 18px;
                         font-weight: 700;
                         line-height: 25px;
@@ -245,7 +253,7 @@ main {
                     height: 60px;
 
                     h3 {
-                        font-family: Lora;
+                        font-family: "Lora";
                         font-size: 12px;
                         font-weight: 400;
                         line-height: 20px;
@@ -283,7 +291,7 @@ main {
                 border-radius: 8px;
                 background: rgba(255, 255, 255, 0.2);
                 color: rgb(255, 255, 255);
-                font-family: Roboto;
+                font-family: "Roboto";
                 font-size: 10px;
                 font-weight: 700;
                 line-height: 12px;
@@ -297,7 +305,7 @@ main {
 
                 h1 {
                 color: rgb(255, 255, 255);
-                font-family: Lora;
+                font-family: "Roboto";
                 font-size: 36px;
                 font-weight: 700;
                 line-height: 46px;
@@ -311,7 +319,7 @@ main {
             
                 h2 {
                 color: rgb(229, 229, 229);
-                font-family: Lora;
+                font-family: "Lora";
                 font-size: 12px;
                 font-weight: 400;
                 line-height: 20px;
@@ -325,7 +333,7 @@ main {
         margin: 150px auto;
         h3 {
             color: rgb(73, 80, 87);
-            font-family: Lora;
+            font-family: "Roboto";
             font-size: 36px;
             font-weight: 700;
             line-height: 46px;
@@ -348,7 +356,7 @@ main {
                 padding: 5px 10px;
                 border-radius: 8px;
                 background: rgba(255, 255, 255, 0.15);
-                font-family: Roboto;
+                font-family: "Roboto";
                 text-transform: uppercase;
                 font-size: 10px;
                 font-weight: 700;
@@ -371,7 +379,7 @@ main {
 
             h1 {
             color: rgb(229, 229, 229);
-            font-family: Lora;
+            font-family: "Lora";
             font-size: 12px;
             font-weight: 400;
             line-height: 15px;
@@ -380,7 +388,7 @@ main {
             h2 {
              width: 270px;
              color: rgb(255, 255, 255);
-             font-family: Lora;
+             font-family: "Roboto";
              font-size: 18px;
              font-weight: 700;
              line-height: 25px;
@@ -389,8 +397,9 @@ main {
             }
             h3 {
             width: 340px;
+            height: 60px;
             color: rgb(229, 229, 229);
-            font-family: Lora;
+            font-family: "Lora";
             font-size: 12px;
             font-weight: 400;
             line-height: 20px;
